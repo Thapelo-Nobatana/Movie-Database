@@ -26,18 +26,22 @@ const Navbar: React.FC = () => {
     };
   }, [isMenuOpen]);
   return (
-    <nav className="navbar top-0 z-50 ">
+    <nav className="navbar top-0 z-50  p-4">
       <div className="container flex justify-between items-center">
         <div className="navbar-brand flex items-center gap-2">
           <a href="/">
-            <img src="/assets/images/" className="w-5 h-5" alt="movie-logo" />
+            <img
+              src="/image/Mask group.png"
+              className="w-full "
+              alt="movie-logo"
+            />
           </a>
           <a href="/">
-            <img src="/assets/images" className="w-5 h-5" alt="" />
+            <img src="/image/Movies..png" className="w-full" alt="" />
           </a>
         </div>
         <div className="hidden md:flex justify-between gap-4 items-center">
-          <ul className="navbar-menu ">
+          <ul className="navbar-menu  text-white flex no-underline md:gap-3 lg:gap-3 xl:gap-8 justify-center items-center transition-all duration-300 ease-in-out">
             <li>
               <a href="/">Home</a>
             </li>
@@ -53,7 +57,12 @@ const Navbar: React.FC = () => {
           </ul>
         </div>
         {/* Hamburger menu button */}
-        <button>
+        <button
+          ref={Refbutton}
+          onClick={toggleMenu}
+          style={{ padding: 0 }}
+          className=" md:hidden"
+        >
           {isMenuOpen ? (
             <HiX size={48} onClick={toggleMenu} color="#ffffff" />
           ) : (
@@ -65,7 +74,7 @@ const Navbar: React.FC = () => {
       <AnimatePresence>
         {isMenuOpen && (
           <motion.ul
-            className="absolute h-100 top-20 w-full flex flex-col items-center justify-around shadow-lg text-center bg-[#030303]"
+            className="absolute h-100 top-20 w-full flex flex-col items-center justify-around shadow-lg text-white text-center bg-[#030303]"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
