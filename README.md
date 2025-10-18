@@ -9,7 +9,7 @@ It demonstrates skills in API integration, state management, responsive UI desig
 ---
 
 ## 🚀 Live Demo  
-🔗 [View Deployed App](#) *( live project link will be here once deployed)*  
+🔗 [View Deployed App](#) *( movie-database-git-main-thapelo-nobatanas-projects.vercel.app )*  
 
 ---
 
@@ -40,9 +40,9 @@ This project helps reinforce:
 |-----------|-------------|
 | Framework | React (Vite) |
 | Styling | Tailwind CSS |
-| Language | JavaScript / JSX |
+| Language | TypeScript / tSX |
 | API | OMDB API |
-| Deployment | Vercel / Netlify |
+| Deployment | Vercel  |
 | Package Manager | npm |
 
 ---
