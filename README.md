@@ -9,7 +9,7 @@ It demonstrates skills in API integration, state management, responsive UI desig
 ---
 
 ## 🚀 Live Demo  
-🔗 [View Deployed App](#)  [movie-database-git-main-thapelo-nobatanas-projects.vercel.app](#)   
+🔗 [View Deployed App] :  [movie-database-git-main-thapelo-nobatanas-projects.vercel.app](#)   
 
 ---
 
