@@ -42,17 +42,21 @@ const Movies: React.FC = () => {
             <div className="text-white text-xl">See More</div>
           </div>
           {/* Search Movie  */}
-          <form onSubmit={handleSearch} className="flex justify-center mb-6">
+          <form
+            onSubmit={handleSearch}
+            className="flex justify-center gap-2 mb-6"
+          >
             <input
               type="text"
               placeholder="Search for a movie..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              className="border border-gray-600 bg-gray-800 rounded-l-lg px-4 py-2 w-64 text-white"
+              className="border border-gray-600 bg-gray-800 h-10 rounded-l-lg px-4 p-4 py-2 w-64 text-white"
             />
             <button
               type="submit"
-              className="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700"
+              className="bg-blue-600 text-white px-4 py-2 w-20
+               rounded-r-lg hover:bg-blue-700"
             >
               Search
             </button>

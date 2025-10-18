@@ -9,8 +9,10 @@ const Hero: React.FC = () => {
       >
         <div className="flex flex-col gap-2">
           <div className="flex flex-col">
-            <div className="text-2xl font-bold  text-white">FIND MOVIES</div>
-            <div className=" text-sm   md:text-6xl font-bold bg-[linear-gradient(135deg,#2203FF,#C40D60)] bg-clip-text text-transparent">
+            <div className="text-2xl font-bold md:items-center  text-white">
+              FIND MOVIES
+            </div>
+            <div className=" text-sm  md:items-center  md:text-6xl font-bold bg-[linear-gradient(135deg,#2203FF,#C40D60)] bg-clip-text text-transparent">
               TV SHOWS AND MORE
             </div>
           </div>
